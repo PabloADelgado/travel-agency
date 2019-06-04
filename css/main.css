@@ -108,10 +108,15 @@ body {
 .hero {
     
     background-image: url(../img/london.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
     padding:0 30px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .topbar {
@@ -153,22 +158,32 @@ body {
     
 }
 
+.button {
+    color: white;
+    background-color: #fbad27;
+    padding: 8px 32px;
+    text-decoration: none;  
+    border-radius: 25px;
+}
+
 .footer1 {
     padding-top: 50px;
-    flex-direction: row;
-    position: left:-150px;
+    display: flex;
+    align-items: center;
 }
 
-.footer-text {
+.footer-image {
+    max-width: 40px;
+}
+
+.footer-image img {
+    max-width: 100%;
+}
+
+.footer-text p {
     margin: 0;
+    color: white;
 }
-
-.play-button {
-flex-direction: row;
-position:left;
-}
-
-
 
 
 
