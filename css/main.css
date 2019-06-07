@@ -153,6 +153,11 @@ html, body {
 .menu-button {
     text-decoration: none;
     color: white;
+    transition: all 0.5s ease;
+}
+
+.menu-button:hover {
+    color:#fbad27;
 }
 
 .phone p {
