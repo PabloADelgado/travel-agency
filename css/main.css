@@ -158,6 +158,7 @@ html, body {
 
 .menu-button:hover {
     color:#fbad27;
+    font-size: 30px;
 }
 
 .phone p {
@@ -217,6 +218,17 @@ html, body {
 .welcome {
     padding-top: 30px;
     text-align: center;
+}
+
+.slider {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    float: left;
+}
+
+.icon {
+    color: #fbad27;
 }
 
 
