@@ -215,8 +215,12 @@ html, body {
     color: white;
 }
 
+.homepage-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 .welcome {
-    padding-top: 30px;
     text-align: center;
     size: 100%;
 }
@@ -224,33 +228,39 @@ html, body {
 .slider {
     display:flex;
     justify-content: space-between;
-    padding-top: 8rem;
-    
-    
+    padding-top: 8rem;    
 }
 
 .slider-text {
     text-align: left;
     margin-right: 22px;
     margin-left: 22px;
-    padding-left: 10px;
-    padding-top: 10px;
-    -webkit-box-shadow: -2px 10px 31px -20px rgba(0,0,0,0.47);
-    -moz-box-shadow: -2px 10px 31px -20px rgba(0,0,0,0.47);
-    box-shadow: -2px 10px 31px -20px rgba(0,0,0,0.47);
+    padding: 40px;
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 6px  rgba(0,0,0,0.15);
+    transition: all 0.5s ease; 
 
+}
+
+.slider-text:hover {
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 8px  rgba(0,0,0,0.25);
+    transform: translateY(-2px);
 }
 
 .icon {
     color: #fbad27;
+    font-size:32px;
 }
 
 .buttons-div {
     display: flex;
     margin-top: 4rem;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     justify-content: center;
-    border-bottom: 1px solid #757575; 
+    /* border-bottom: 1px solid #757575;  */
 }
 
 .slider-buttons {
@@ -263,10 +273,28 @@ html, body {
     font-size: 20px;
 }
 
-.find-your-destination {
-    text-align: center;
+.section-divider {
+    margin:0;
 }
 
+.find-your-destination {
+    text-align: center;
+
+}
+
+.search {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.search .fa-search {
+    padding-right: 4px;
+}
+
+.searchbar {
+    border: none; 
+    border-bottom: solid 1px black; 
+}
 
 
 
