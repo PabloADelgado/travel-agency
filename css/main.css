@@ -366,6 +366,40 @@ body {
     padding-top: 15px;
 }
 
+.column1 {
+    width: 470px;
+}
+
+.pariscolumn {
+    background-image: url(../img/france2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: top;
+    
+}
+
+.istanbulcolumn {
+    background-image: url(../img/istanbul.jpg);
+    margin-top: 300px;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: right; 
+}
+
+.istanbulcolumn p {
+    font-size: 13px;
+    width: 180px;
+}
+
+.istanbulcolumn h4 {
+    width: 180px;
+}
+
+.column2 {
+    background-image: url(../img/liberty.jpg);
+}
  /* ==========================================================================
    Helper classes
    ========================================================================== */
