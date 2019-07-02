@@ -366,6 +366,55 @@ body {
     padding-top: 15px;
 }
 
+.news-columns {
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.news-paris {
+    background-image: url(../img/paris.jpg);
+    height: 240px;
+    width: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news-small-image {
+    height: 120px;
+    width: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news-istanbul .news-small-image {
+    background-image: url(../img/istanbul.jpg);
+}
+
+
+.news-liberty .news-small-image {
+    background-image: url(../img/liberty.jpg;);
+}
+
+.news-boat .news-small-image {
+    background-image: url(../img/boat.jpg;);
+}
+
+.news-paradise1 .news-small-image {
+    background-image: url(../img/paradise1.jpg);
+}
+
+.news-paradise2 .news-small-image {
+    background-image: url(../img/paradise2.jpg);
+}
+
+.news-text {
+    font-size: 14px;
+}
+
  /* ==========================================================================
    Helper classes
    ========================================================================== */
